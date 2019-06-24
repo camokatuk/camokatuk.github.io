@@ -4,6 +4,7 @@
 }
 
 .newsTitle {
+	color: green;
 	display: inline-block;
 	float: right;
 	font-size: 26px;
@@ -27,6 +28,7 @@
 
 .newsItem img {
 	width: 500px;
+	text-align: right;
 }
 
 .newsItem a {
