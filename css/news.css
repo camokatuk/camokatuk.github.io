@@ -3,6 +3,12 @@
 	height: 70px;
 }
 
+.headerPop {
+	color:#f7d246; 
+    text-shadow: 1px 1px black
+}
+
+
 .newsTitle {
 	color: green;
 	display: inline-block;
