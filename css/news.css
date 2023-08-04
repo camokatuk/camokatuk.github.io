@@ -4,17 +4,18 @@
 }
 
 .headerPop {
-	color:#f7d246; 
-    text-shadow: 1px 1px black
+	color:white;
+	text-shadow: 1px 1px black;
 }
 
 
 .newsTitle {
-	color: green;
+	color: #8b5394;
 	display: inline-block;
 	float: right;
 	font-size: 26px;
 	font-weight: bold;
+	font-family: 'Thaleum', serif;
 }
 
 .newsDate {
@@ -22,14 +23,23 @@
 	float: right;
 	clear: right;
 	font-size: 16px;
-	
 }
 
 .newsItem {
 	padding: 20px 0 20px 0;
+	color: #ae6bac;
+	background-color: rgba(0,0,0,0.5);
 }
+
+.newsItem iframe[src*="artwork=small"] {
+	width: 100% !important;
+	height: 120px !important;
+}
+
 .newsItem iframe {
-	width: 80% !important;
+	width: 100% !important;
+	height: 100% !important;
+	max-height: 820px !important;
 }
 
 .newsItem img {
@@ -38,7 +48,7 @@
 }
 
 .newsItem a {
-	color: green;
+	color: white;
 	text-decoration: none;
 	font-weight: bolder;
 }
